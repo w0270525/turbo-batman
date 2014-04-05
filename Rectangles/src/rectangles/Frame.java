@@ -1,6 +1,6 @@
 package rectangles;
 
-import javax.swing.JComponent;
+
 import javax.swing.JFrame;
 
 public class Frame {
@@ -14,11 +14,10 @@ public class Frame {
 		frame.setVisible(true);
 		
 		RectangleComponent component = new RectangleComponent();
+		
+
+		EllipseComponent oval = new EllipseComponent();
 		frame.add(component);
-		
-		JFrame frame2 = new JFrame();
-		
-		frame2.setTitle("second window");
 		
 		
 	}
